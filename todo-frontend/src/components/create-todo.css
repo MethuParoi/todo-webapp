@@ -1,0 +1,110 @@
+#root {
+
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    box-sizing: border-box; 
+    font-size: 62.5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(4, 1, 66, 0.915) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+background-size: cover;
+  }
+
+  body{
+    margin: 0;
+    padding: 0;
+  }
+
+  .heading{
+    color: #00FFFF;
+    font-size: 3rem;
+  }
+
+  .outer-box {
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .box{
+    padding-top: 2rem;
+  }
+  .title-box {
+    width: 60rem;
+    height: 4rem;
+
+    border: 1px solid black;
+    border-radius: .5rem;
+
+    @media screen and (max-width: 1000px){
+        width: 30rem;
+        height: 3rem;
+    }
+
+  }
+
+  input::placeholder {
+    font-size: 1.2rem;
+    color: black;
+    text-align: center;
+  }
+  input{
+    font-size: 1.2rem;
+    color: black;
+  }
+
+  .btn {
+    padding: 1rem 2rem;
+    border-radius: .5rem;
+    background-color: bisque;
+    font-size: 1.2rem;
+  }
+
+  .btn:hover {
+    background-color: aqua;
+    color: black;
+  }
+
+  /*---------------------------- */
+
+  .todo-outer-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 18rem;
+
+    @media screen and (max-width: 1000px){
+      padding: 0 5rem;
+      
+  }
+  }
+
+
+  .todo-box {
+    
+
+  }
+  .todo-comp {
+    
+  }
+
+  .todo-title{
+    font-size: 1.4rem;
+    color: azure;
+  }
+
+  .todo-desc {
+    font-size: 1.2rem;
+    color: rgba(240, 255, 255, 0.808);
+  }
+
+  .todo-btn {
+    padding: .5rem .5rem;
+    border-radius: .5rem;
+    background-color: bisque;
+    font-size: 1.2rem;
+  }
